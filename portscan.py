@@ -5,7 +5,7 @@
 # Hard coded to scan first ports 1000,
 # planning to change this to take args
 #
-# !/usr/bin/env python
+# !/usr/bin/env python3
 
 import sys
 import socket
