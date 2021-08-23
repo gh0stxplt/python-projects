@@ -2,7 +2,7 @@
 #
 # Date: 08/13/2021
 #
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import subprocess
 
