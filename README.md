@@ -7,6 +7,9 @@ These are strictly for educational purposes only; or for use in an environment i
 <b><em>If you are unfamiliar with Rules of Engagement (RoE) contents - please do not utilize any scripts within this repository or contribute.</b></em>
 
 ## TODO:
+- [X] Custom MAC Address Changer
+- [X] Random MAC Address Changer
+- [X] Target Port Scanner
 - [ ] Login Bruteforcer
 - [ ] Web Crawler
 - [ ] File Download Interception
