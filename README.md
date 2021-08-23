@@ -9,7 +9,8 @@ These are strictly for educational purposes only; or for use in an environment i
 ## TODO:
 - [X] Custom MAC Address Changer
 - [X] Random MAC Address Changer
-- [X] Target Port Scanner
+- [X] 1K Target Port Scanner
+- [ ] Full (All 65,535) Target Port Scanner
 - [ ] Login Bruteforcer
 - [ ] Web Crawler
 - [ ] File Download Interception
