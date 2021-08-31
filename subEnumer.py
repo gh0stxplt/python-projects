@@ -1,3 +1,13 @@
+# Author: gh0stxplt
+#
+# Date: 08/31/2021
+#
+#
+# !/usr/bin/env python3
+#
+# Usage: python3 subEnumer.py -d DOMAIN -w WORDLIST [OPTIONAL: -t THREADS -o OUTFILE]
+#
+# Reqs
 import requests
 import sys
 from threading import Thread, Lock
