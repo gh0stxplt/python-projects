@@ -11,6 +11,7 @@ These are strictly for educational purposes only; or for use in an environment i
 - [X] Random MAC Address Changer
 - [X] 1K Target Port Scanner
 - [ ] Full (All 65,535) Target Port Scanner
+- [X] Simple Subdomain Enumerator
 - [ ] Login Bruteforcer
 - [ ] Web Crawler
 - [ ] File Download Interception
