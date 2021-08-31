@@ -17,14 +17,15 @@ print_lock = threading.Lock()
 
 if len(sys.argv) == 2:
     target = socket.gethostbyname(sys.argv[1])
+    print("-" * 40)
+    print("\tScanning first 1000 ports\n   Closed ports will not be verbosed")
+    print("-" * 40)
+    start=time.time()
+
 else:
     print("No IP to scan provided.")
-    print("Use python3 portscan.py <ip>")
-
-print("-" * 40)
-print("\tScanning first 1000 ports\n   Closed ports will not be verbosed")
-print("-" * 40)
-start=time.time()
+    print("Usage: python3 portscan.py <ip>")
+    sys.exit(1)
 
 def scan(port):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
